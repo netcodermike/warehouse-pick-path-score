@@ -1,0 +1,15 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "distances": {
+      "First": 26,
+      "Second": 18
+    },
+    "shortest": "Second"
+  }
+}
